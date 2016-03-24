@@ -1,0 +1,58 @@
+<script src="view/js/main.js"></script>
+
+<script id="template" type="text/html">
+    {{#projects}}
+    <section class="project">
+    <header>
+        <div class="projName">
+            <span></span>
+            <input type="text" id="project_{{id}}" onblur="Lost_focus(this);" onchange="Change_project_name(this, {{id}});" value="{{name}}" disabled>
+            <span class="edit add_edit" onclick="project_edit(this);"></span><span class="del" onclick="project_delete({{id}});"></span></div>
+        <div class="form_div">
+            <div class="form">
+                <input type="image" src="view/images/plus.png" disabled>
+                <input type="text" placeholder="Start typing here to create a task&#8230;" onkeyup="Validation_task(this);">
+                <button class="add_task_btn btn" type="submit" disabled onclick="Add_task(this, {{id}});">Add Task</button>
+            </div>
+        </div>
+    </header>
+    <table class="items">
+        <tbody class="sortable">
+            {{#tasks}}
+            <tr id="item-{{id}}" class="todoListItem">
+                <td>
+                    <input type="checkbox" {{Status_task}} name="status" onchange="Edit_status(this, {{id}});">
+                </td>
+                <td class="task">
+                    <div>
+                       <textarea class="{{Status_task}}" onblur="Lost_focus(this);" onchange="Change_task_name(this, {{id}});" disabled rows="1">{{name}}</textarea>
+                    </div>
+                </td>
+                <td class="tools">
+                    <div>
+                        <span class="dragTask"></span>
+                        <span class="editTask" onclick="Task_edit(this);"></span>
+                        <span class="delTask" onclick="Task_del({{id}});"></span>
+                    </div>
+                </td>
+            </tr>
+            {{/tasks}}
+        </tbody>
+    </table>
+    </section>
+    {{/projects}}
+</script>
+
+
+<script id="temporary" type="text/html">
+    {{#projects}}
+    <section class="project">
+    <header class="delAfter">
+        <div class="projName">
+            <span></span>
+            <input class="addProjName" type="text" value="" onblur="Save_add_project(value);">
+            <span class="edit" onclick="project_edit(this);"></span><span class="del"></span></div>       
+    </header>
+    </section>
+    {{/projects}}
+</script>

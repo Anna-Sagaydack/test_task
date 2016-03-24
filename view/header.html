@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple TODO list</title>
+    <link href="view/CSS/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<header id="pageHeader">
+    <?php if(isset($_SESSION["logged_in"])) : ?>
+    <div class="log_out">
+        <a href="logout.php">Log out</a>
+    </div>
+    <?php endif; ?>
+    <h1>SIMPLE TODO LISTS</h1>
+    <h2>FROM RUBY GARAGE</h2>
+</header>
+
