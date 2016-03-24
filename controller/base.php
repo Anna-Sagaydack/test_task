@@ -78,8 +78,8 @@ function  Login()
             $id = mysql_fetch_assoc($result);
             $id = $id['id'];
             $hash = md5(time());
-
-            SelectToDB("INSERT INTO `sessions` (`hash`, `session_time`, `user_id`) VALUES ('$hash', 'date()', '$id')");
+            $time = date('Y-m-d G:i:s');
+            SelectToDB("INSERT INTO `sessions` (`hash`, `session_time`, `user_id`) VALUES ('$hash', '$time', '$id')");
             $_SESSION['email']=$email;
             $_SESSION['id']=$id;
             $_SESSION['hash']=$hash;
@@ -96,7 +96,6 @@ function  Login()
         echo  false;
     }
 }
-
 
 function  Reg()
 {
@@ -138,8 +137,6 @@ function Get_Task()
     if($_SESSION["logged_in"])
     {
         $result1 = SelectToDB("SELECT name, id FROM projects WHERE user_id = $user_id");
-
-        //$msg = array();
         $user = new user();
         while($r1 = mysql_fetch_assoc($result1)) {
             $projects = new project();
@@ -147,7 +144,6 @@ function Get_Task()
             $projects->id = $r1['id'];
             $projects->id_user = $user_id;
             $result2 = SelectToDB("SELECT name, id, status FROM tasks WHERE project_id = $projects->id ORDER BY priority");
-            //$projects->tasks=array();
             while($r2 = mysql_fetch_assoc($result2)) {
                 $task = new  task();
                 $task->id = $r2['id'];
@@ -157,7 +153,6 @@ function Get_Task()
                 $projects->tasks[] = $task;
             }
             $user->projects[] = $projects;
-            //$msg[] = $projects;
         }
         echo json_encode($user);
     }
@@ -169,7 +164,6 @@ function Delete_Project()
     SelectToDB("DELETE FROM tasks WHERE project_id=$id");
     SelectToDB("DELETE FROM projects WHERE id=$id");
     Get_Task();
-
 }
 
 function Add_project()
@@ -231,12 +225,9 @@ function Edit_status()
 
 function Sort_tasks()
 {
-
     $i = 1;
-
     foreach ($_POST["item"] as $value) {
         SelectToDB("UPDATE tasks SET `priority`=$i WHERE id=$value");
         $i++;
     }
-
 }

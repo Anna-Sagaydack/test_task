@@ -99,7 +99,7 @@ function IsValid() {
 
 
 
-function validation_author(){
+function Validation_author(){
     if ($('#email').val() != "" && $('#pwd').val() != "") {
         $("#btn-login").removeAttr('disabled');
     }

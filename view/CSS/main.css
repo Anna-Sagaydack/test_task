@@ -88,7 +88,7 @@ h2 {
     background: -o-linear-gradient(-270deg, #5183BE 0%, #375D9E 100%);
     background: -ms-linear-gradient(-270deg, #5183BE 0%, #375D9E 100%);
     background: linear-gradient(-270deg, #5183BE 0%, #375D9E 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(enabled='false',startColorstr=#5183BE, endColorstr=#375D9E);
+    [if IE] background-color: #5183be;
     border: 1px solid #375D9E;
     border-radius: 3px;
 }
@@ -116,6 +116,7 @@ header > div {
     background: -o-linear-gradient(-90deg, #5183be 0%, #375d9e 99%);
     background: -ms-linear-gradient(-90deg, #5183be 0%, #375d9e 99%);
     background: linear-gradient(180deg, #5183be 0%, #375d9e 99%);
+    [if IE] background-color: #5183be;
     height: 48px;
     border: 1px solid #315589;
     position: relative;
@@ -202,6 +203,7 @@ header > div {
     background: -o-linear-gradient(-90deg, #e1e1e1 0%, #cccccc 100%);
     background: -ms-linear-gradient(-90deg, #e1e1e1 0%, #cccccc 100%);
     background: linear-gradient(180deg, #e1e1e1 0%, #cccccc 100%);
+    [if IE] background-color: #e1e1e1;
     border: 1px solid #aaaaaa;
 }
 
@@ -259,6 +261,7 @@ input[type=image] {
     background: -o-linear-gradient(-90deg, #96CDB0 0%, #4D8464 100%);
     background: -ms-linear-gradient(-90deg, #96CDB0 0%, #4D8464 100%);
     background: linear-gradient(180deg, #96CDB0 0%, #4D8464 100%);
+    [if IE] background-color: #96CDB0;
     border: 1px solid #447557;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;

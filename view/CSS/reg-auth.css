@@ -2,7 +2,7 @@
 
 body{
     padding-top: 30px;
-    background: #B0580E url(../images/background.png)repeat-x 0 0;
+    background: url(../images/background.png) #B0580E repeat-x 0 0;
 }
 
 h1{

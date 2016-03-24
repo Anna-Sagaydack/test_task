@@ -17,7 +17,6 @@ $(document).ready(function()
         }
     });
 
-
 });
 
 function Resize()
@@ -31,7 +30,6 @@ function Resize()
 
 }
 
-
 function Sort()
 {
     $('.sortable').sortable({
@@ -44,21 +42,15 @@ function Sort()
                 url: "controller/base.php",
                 data: data+"&method=sort_tasks",
 
-                success:function(msg)
-                {
-
-
-                }
             });
         }
     });
 }
 
-function project_edit(e)
+function Project_edit(e)
 {
     $(e).closest('.projName').children('input[type=text]').removeAttr('disabled').focus();
     $('.addList').attr('disabled','disabled');
-
 }
 
 function Save_add_project(name)
@@ -73,7 +65,6 @@ function Save_add_project(name)
             success:function(msg)
             {
                 var res = JSON.parse(msg);
-                console.log(res);
                 $(".delAfter").remove();
                 $(".content").append(Mustache.render($('#template').html(), res));
                 $('.addList').removeAttr('disabled','disabled');
@@ -129,7 +120,7 @@ function Change_task_name(e, $id)
     }
 }
 
-function project_delete ($id)
+function Project_delete ($id)
 {
     $.ajax({
         type: "POST",
@@ -139,7 +130,6 @@ function project_delete ($id)
         success:function(msg)
         {
             var res = JSON.parse(msg);
-            console.log(msg);
             res.Status_task = function (){
                 return (this.status==1)? "checked" : "";
             } ;
@@ -181,7 +171,6 @@ function Add_task(e, $id)
         success:function(msg)
         {
             var res = JSON.parse(msg);
-            console.log(msg);
             res.Status_task = function (){
                 return (this.status==1)? "checked" : "";
             } ;
@@ -237,10 +226,6 @@ function Edit_status(e, $task_id)
         url: "controller/base.php",
         data: "id="+$task_id+"&status="+status+"&method=edit_status",
 
-        success:function(msg)
-        {
-
-        }
     });
 }
 

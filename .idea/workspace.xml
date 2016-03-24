@@ -42,38 +42,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.024072">
-              <caret line="236" column="25" selection-start-line="236" selection-start-column="25" selection-end-line="236" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding>
-                <marker date="1458768641597" expanded="true" signature="1624:1700" placeholder="SELECT id FR..users..." />
-                <marker date="1458768641597" expanded="true" signature="1888:1980" placeholder="INSERT INTO `sessions`..." />
-                <marker date="1458768641597" expanded="true" signature="2509:2552" placeholder="SELECT id FR..users..." />
-                <marker date="1458768641597" expanded="true" signature="2762:2840" placeholder="INSERT INTO `users`..." />
-                <marker date="1458768641597" expanded="true" signature="3152:3198" placeholder="SELECT name,..projects..." />
-                <marker date="1458768641597" expanded="true" signature="3515:3600" placeholder="SELECT name,..tasks..." />
-                <marker date="1458768641597" expanded="true" signature="4171:4206" placeholder="DELETE FROM ..." />
-                <marker date="1458768641597" expanded="true" signature="4229:4259" placeholder="DELETE FROM ..." />
-                <marker date="1458768641597" expanded="true" signature="4406:4477" placeholder="INSERT INTO `projects`..." />
-                <marker date="1458768641597" expanded="true" signature="4788:4832" placeholder="UPDATE proje..." />
-                <marker date="1458768641597" expanded="true" signature="4976:5017" placeholder="UPDATE tasks..." />
-                <marker date="1458768641597" expanded="true" signature="5158:5222" placeholder="SELECT MAX(`..tasks..." />
-                <marker date="1458768641597" expanded="true" signature="5336:5433" placeholder="INSERT INTO `tasks`..." />
-                <marker date="1458768641597" expanded="true" signature="5523:5550" placeholder="DELETE FROM ..." />
-                <marker date="1458768641597" expanded="true" signature="5711:5754" placeholder="UPDATE tasks..." />
-                <marker date="1458768641597" expanded="true" signature="5886:5926" placeholder="UPDATE tasks..." />
+                <marker date="1458842989214" expanded="true" signature="1624:1700" placeholder="SELECT id FR..users..." />
+                <marker date="1458842989214" expanded="true" signature="1928:2019" placeholder="INSERT INTO `sessions`..." />
+                <marker date="1458842989214" expanded="true" signature="2547:2590" placeholder="SELECT id FR..users..." />
+                <marker date="1458842989214" expanded="true" signature="2800:2878" placeholder="INSERT INTO `users`..." />
+                <marker date="1458842989214" expanded="true" signature="3190:3236" placeholder="SELECT name,..projects..." />
+                <marker date="1458842989214" expanded="true" signature="3526:3611" placeholder="SELECT name,..tasks..." />
+                <marker date="1458842989214" expanded="true" signature="4108:4143" placeholder="DELETE FROM ..." />
+                <marker date="1458842989214" expanded="true" signature="4166:4196" placeholder="DELETE FROM ..." />
+                <marker date="1458842989214" expanded="true" signature="4342:4413" placeholder="INSERT INTO `projects`..." />
+                <marker date="1458842989214" expanded="true" signature="4724:4768" placeholder="UPDATE proje..." />
+                <marker date="1458842989214" expanded="true" signature="4912:4953" placeholder="UPDATE tasks..." />
+                <marker date="1458842989214" expanded="true" signature="5094:5158" placeholder="SELECT MAX(`..tasks..." />
+                <marker date="1458842989214" expanded="true" signature="5272:5369" placeholder="INSERT INTO `tasks`..." />
+                <marker date="1458842989214" expanded="true" signature="5459:5486" placeholder="DELETE FROM ..." />
+                <marker date="1458842989214" expanded="true" signature="5647:5690" placeholder="UPDATE tasks..." />
+                <marker date="1458842989214" expanded="true" signature="5820:5860" placeholder="UPDATE tasks..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/js/main.js">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="224" column="1" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -83,24 +83,29 @@
         <entry file="file://$PROJECT_DIR$/view/js/validation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+              <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plus.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/CSS/images/plus.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="mustache.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/js/mustache.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templates.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/templates.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,24 +115,27 @@
         <entry file="file://$PROJECT_DIR$/view/authoriz.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plus.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/images/plus.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/CSS/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.017051153">
+              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/CSS/main.css">
+      <file leaf-file-name="reg-auth.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/CSS/reg-auth.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="215" column="19" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,7 +158,6 @@
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/authoriz.php" />
         <option value="$PROJECT_DIR$/registr.php" />
-        <option value="$PROJECT_DIR$/view/authoriz.html" />
         <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/config.php" />
@@ -158,15 +165,16 @@
         <option value="$PROJECT_DIR$/data/task.php" />
         <option value="$PROJECT_DIR$/data/project.php" />
         <option value="$PROJECT_DIR$/view/registr.html" />
-        <option value="$PROJECT_DIR$/view/js/validation.js" />
-        <option value="$PROJECT_DIR$/view/CSS/reg-auth.css" />
         <option value="$PROJECT_DIR$/view/header.html" />
         <option value="$PROJECT_DIR$/view/index.html" />
-        <option value="$PROJECT_DIR$/controller/base.php" />
         <option value="$PROJECT_DIR$/view/footer.html" />
-        <option value="$PROJECT_DIR$/view/CSS/main.css" />
         <option value="$PROJECT_DIR$/view/templates.html" />
+        <option value="$PROJECT_DIR$/view/authoriz.html" />
+        <option value="$PROJECT_DIR$/view/js/validation.js" />
         <option value="$PROJECT_DIR$/view/js/main.js" />
+        <option value="$PROJECT_DIR$/controller/base.php" />
+        <option value="$PROJECT_DIR$/view/CSS/reg-auth.css" />
+        <option value="$PROJECT_DIR$/view/CSS/main.css" />
       </list>
     </option>
   </component>
@@ -180,9 +188,31 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="width" value="1382" />
+    <option name="x" value="202" />
+    <option name="width" value="1712" />
     <option name="height" value="1160" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidFunction</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -255,7 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="CSS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,10 +365,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="0" width="1382" height="1160" extended-state="1" />
-    <editor active="true" />
+    <frame x="202" y="0" width="1712" height="1160" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1456368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -373,14 +403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/CSS/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="215" column="19" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -402,22 +424,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1458768641597" expanded="true" signature="1624:1700" placeholder="SELECT id FR..users..." />
-            <marker date="1458768641597" expanded="true" signature="1888:1980" placeholder="INSERT INTO `sessions`..." />
-            <marker date="1458768641597" expanded="true" signature="2509:2552" placeholder="SELECT id FR..users..." />
-            <marker date="1458768641597" expanded="true" signature="2762:2840" placeholder="INSERT INTO `users`..." />
-            <marker date="1458768641597" expanded="true" signature="3152:3198" placeholder="SELECT name,..projects..." />
-            <marker date="1458768641597" expanded="true" signature="3515:3600" placeholder="SELECT name,..tasks..." />
-            <marker date="1458768641597" expanded="true" signature="4171:4206" placeholder="DELETE FROM ..." />
-            <marker date="1458768641597" expanded="true" signature="4229:4259" placeholder="DELETE FROM ..." />
-            <marker date="1458768641597" expanded="true" signature="4406:4477" placeholder="INSERT INTO `projects`..." />
-            <marker date="1458768641597" expanded="true" signature="4788:4832" placeholder="UPDATE proje..." />
-            <marker date="1458768641597" expanded="true" signature="4976:5017" placeholder="UPDATE tasks..." />
-            <marker date="1458768641597" expanded="true" signature="5158:5222" placeholder="SELECT MAX(`..tasks..." />
-            <marker date="1458768641597" expanded="true" signature="5336:5433" placeholder="INSERT INTO `tasks`..." />
-            <marker date="1458768641597" expanded="true" signature="5523:5550" placeholder="DELETE FROM ..." />
-            <marker date="1458768641597" expanded="true" signature="5711:5754" placeholder="UPDATE tasks..." />
-            <marker date="1458768641597" expanded="true" signature="5886:5926" placeholder="UPDATE tasks..." />
+            <marker date="1458842989214" expanded="true" signature="1624:1700" placeholder="SELECT id FR..users..." />
+            <marker date="1458842989214" expanded="true" signature="1928:2019" placeholder="INSERT INTO `sessions`..." />
+            <marker date="1458842989214" expanded="true" signature="2547:2590" placeholder="SELECT id FR..users..." />
+            <marker date="1458842989214" expanded="true" signature="2800:2878" placeholder="INSERT INTO `users`..." />
+            <marker date="1458842989214" expanded="true" signature="3190:3236" placeholder="SELECT name,..projects..." />
+            <marker date="1458842989214" expanded="true" signature="3526:3611" placeholder="SELECT name,..tasks..." />
+            <marker date="1458842989214" expanded="true" signature="4108:4143" placeholder="DELETE FROM ..." />
+            <marker date="1458842989214" expanded="true" signature="4166:4196" placeholder="DELETE FROM ..." />
+            <marker date="1458842989214" expanded="true" signature="4342:4413" placeholder="INSERT INTO `projects`..." />
+            <marker date="1458842989214" expanded="true" signature="4724:4768" placeholder="UPDATE proje..." />
+            <marker date="1458842989214" expanded="true" signature="4912:4953" placeholder="UPDATE tasks..." />
+            <marker date="1458842989214" expanded="true" signature="5094:5158" placeholder="SELECT MAX(`..tasks..." />
+            <marker date="1458842989214" expanded="true" signature="5272:5369" placeholder="INSERT INTO `tasks`..." />
+            <marker date="1458842989214" expanded="true" signature="5459:5486" placeholder="DELETE FROM ..." />
+            <marker date="1458842989214" expanded="true" signature="5647:5690" placeholder="UPDATE tasks..." />
+            <marker date="1458842989214" expanded="true" signature="5820:5860" placeholder="UPDATE tasks..." />
           </folding>
         </state>
       </provider>
@@ -447,7 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,20 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/registr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.26923">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registr.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
@@ -648,31 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/CSS/reg-auth.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -686,6 +671,34 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/templates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.692308">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/registr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -694,10 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/authoriz.html">
+    <entry file="file://$PROJECT_DIR$/view/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -710,10 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/CSS/main.css">
+    <entry file="file://$PROJECT_DIR$/view/authoriz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="215" column="19" selection-start-line="215" selection-start-column="19" selection-end-line="215" selection-end-column="19" />
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -721,49 +734,67 @@
     <entry file="file://$PROJECT_DIR$/view/js/validation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <caret line="101" column="10" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/templates.html">
+    <entry file="file://$PROJECT_DIR$/view/js/mustache.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="224" column="1" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.024072">
-          <caret line="236" column="25" selection-start-line="236" selection-start-column="25" selection-end-line="236" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
-            <marker date="1458768641597" expanded="true" signature="1624:1700" placeholder="SELECT id FR..users..." />
-            <marker date="1458768641597" expanded="true" signature="1888:1980" placeholder="INSERT INTO `sessions`..." />
-            <marker date="1458768641597" expanded="true" signature="2509:2552" placeholder="SELECT id FR..users..." />
-            <marker date="1458768641597" expanded="true" signature="2762:2840" placeholder="INSERT INTO `users`..." />
-            <marker date="1458768641597" expanded="true" signature="3152:3198" placeholder="SELECT name,..projects..." />
-            <marker date="1458768641597" expanded="true" signature="3515:3600" placeholder="SELECT name,..tasks..." />
-            <marker date="1458768641597" expanded="true" signature="4171:4206" placeholder="DELETE FROM ..." />
-            <marker date="1458768641597" expanded="true" signature="4229:4259" placeholder="DELETE FROM ..." />
-            <marker date="1458768641597" expanded="true" signature="4406:4477" placeholder="INSERT INTO `projects`..." />
-            <marker date="1458768641597" expanded="true" signature="4788:4832" placeholder="UPDATE proje..." />
-            <marker date="1458768641597" expanded="true" signature="4976:5017" placeholder="UPDATE tasks..." />
-            <marker date="1458768641597" expanded="true" signature="5158:5222" placeholder="SELECT MAX(`..tasks..." />
-            <marker date="1458768641597" expanded="true" signature="5336:5433" placeholder="INSERT INTO `tasks`..." />
-            <marker date="1458768641597" expanded="true" signature="5523:5550" placeholder="DELETE FROM ..." />
-            <marker date="1458768641597" expanded="true" signature="5711:5754" placeholder="UPDATE tasks..." />
-            <marker date="1458768641597" expanded="true" signature="5886:5926" placeholder="UPDATE tasks..." />
+            <marker date="1458842989214" expanded="true" signature="1624:1700" placeholder="SELECT id FR..users..." />
+            <marker date="1458842989214" expanded="true" signature="1928:2019" placeholder="INSERT INTO `sessions`..." />
+            <marker date="1458842989214" expanded="true" signature="2547:2590" placeholder="SELECT id FR..users..." />
+            <marker date="1458842989214" expanded="true" signature="2800:2878" placeholder="INSERT INTO `users`..." />
+            <marker date="1458842989214" expanded="true" signature="3190:3236" placeholder="SELECT name,..projects..." />
+            <marker date="1458842989214" expanded="true" signature="3526:3611" placeholder="SELECT name,..tasks..." />
+            <marker date="1458842989214" expanded="true" signature="4108:4143" placeholder="DELETE FROM ..." />
+            <marker date="1458842989214" expanded="true" signature="4166:4196" placeholder="DELETE FROM ..." />
+            <marker date="1458842989214" expanded="true" signature="4342:4413" placeholder="INSERT INTO `projects`..." />
+            <marker date="1458842989214" expanded="true" signature="4724:4768" placeholder="UPDATE proje..." />
+            <marker date="1458842989214" expanded="true" signature="4912:4953" placeholder="UPDATE tasks..." />
+            <marker date="1458842989214" expanded="true" signature="5094:5158" placeholder="SELECT MAX(`..tasks..." />
+            <marker date="1458842989214" expanded="true" signature="5272:5369" placeholder="INSERT INTO `tasks`..." />
+            <marker date="1458842989214" expanded="true" signature="5459:5486" placeholder="DELETE FROM ..." />
+            <marker date="1458842989214" expanded="true" signature="5647:5690" placeholder="UPDATE tasks..." />
+            <marker date="1458842989214" expanded="true" signature="5820:5860" placeholder="UPDATE tasks..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/CSS/reg-auth.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.017051153">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
